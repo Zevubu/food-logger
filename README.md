@@ -1,0 +1,2 @@
+# food-logger
+A Node.js application that allows user to list what they want to eat and store them via SQL database. One of the columns on the table is devoured BOOLEAN NOT NULL DEFAULT FALSE. Once the user clicks the "Devour It" button on a item, the devoured boolean on that item is set to true. items that have not yet been devoured are displayed on the left side of the screen, whereas those that have been devoured are displayed to the right.
